@@ -1,0 +1,42 @@
+.hero {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    padding: 0.5rem 0 2rem 0;
+    color: white;
+}
+
+.hero-text .show {
+    text-decoration: none;
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}

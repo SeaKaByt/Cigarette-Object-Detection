@@ -1,0 +1,28 @@
+.container-fluid {
+    text-align: center;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .button-wrapper {
+    margin: 10px;
+  }
+  
+  .button-description {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    width: 200px;
+  }
+  
